@@ -2,7 +2,7 @@
 
 .net 6已經設定了Cors但Angular再連接時仍有出現以下錯誤訊息
         
-<font color=#FF0000>Access to XMLHttpRequest at'</font><font color=#0000FF>https://localhost:8080/API/Control</font><font color=#FF0000>' from origin '</font><font color=#0000FF>http://localhost:4200</font><font color=#FF0000>' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+<font color=#FF0000>Access to XMLHttpRequest at'</font><font color=#0000FF>`https://localhost:8080/API/Control`</font><font color=#FF0000>' from origin '</font><font color=#0000FF>`http://localhost:4200`</font><font color=#FF0000>' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. 
 </font>
 
 ## 相關設定
