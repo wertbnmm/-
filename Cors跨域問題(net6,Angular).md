@@ -44,7 +44,7 @@
         "logLevel": "debug"
           }
     }
-此設定再連接到https://localhost:8080的API時自動進行Proxy的動作解決同源問題，另外再使用API時，如果url以API為開頭，將自動替換為https://localhost:8080，以下為範例：
+此設定再連接到'https://localhost:8080'的API時自動進行Proxy的動作解決同源問題，另外再使用API時，如果url以API為開頭，將自動替換為'https://localhost:8080'，以下為範例：
 
     this.http.post<any>('https://localhost:8080/API/Controllers', {}, httpOptions).subscribe(x=>{
         //todo
